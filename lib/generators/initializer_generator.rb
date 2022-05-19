@@ -5,6 +5,7 @@ class InitializerGenerator < Rails::Generators::NamedBase
     #   create_file "config/initializers/initializer.rb", "# Add initialization content here"
     # end
     
+    
     def copy_initializer_file
         copy_file "initializer.rb", "config/initializers/#{file_name}.rb"
     end
